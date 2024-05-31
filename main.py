@@ -20,11 +20,12 @@ def main():
 
     # Read matrices from files and test the algorithms
     # Read and update the 5x5 matrix from the file 'matrix_5x5.txt'
-    matrix_5x5 = read_and_update_matrix('matrix_5x5.txt')
+    matrix_5x5 = read_matrix('matrix_5x5.txt')
     # Read and update the 10x10 matrix from the file 'matrix_10x10.txt'
-    matrix_10x10 = read_and_update_matrix('matrix_10x10.txt')
+    matrix_10x10 = read_matrix('matrix_10x10.txt')
     # Read and update the 15x15 matrix from the file 'matrix_15x15.txt'
-    matrix_15x15 = read_and_update_matrix('matrix_15x15.txt')
+    matrix_15x15 = read_matrix('matrix_15x15.txt')
+
 
     # Print the results of DFS, UCS, and A* TSP algorithms for the 5x5 matrix
     print("DFS TSP result for 5x5 matrix:", dfs_tsp(matrix_5x5))
