@@ -1,6 +1,6 @@
 import heapq
 from DFS import dfs_tsp  # Import the DFS TSP function
-from ReadAndUpdateMatrix import read_and_update_matrix  # Import the function to read and update matrices
+from ReadAndUpdateMatrix import read_matrix  # Import the function to read and update matrices
 from UCS import ucs_tsp  # Import the UCS TSP function
 from AStar import a_star_tsp  # Import the A* TSP function
 
